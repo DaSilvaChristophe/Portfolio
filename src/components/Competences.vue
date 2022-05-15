@@ -8,6 +8,7 @@
       <div class="graph-size py-3 mx-auto">
         <canvas id="myChartTwo"></canvas>
       </div>
+      <p>Titre RNCP de niveau 5 (Bac+ 2) - Développeur Web</p>
  </section>
 </template>
 
@@ -181,6 +182,12 @@ h3
   .graph-size
   {
   width: 90%;
+  }
+
+  p
+  {
+    font-size: 0.9em;
+    padding: 0 5px;
   }
 }
 
