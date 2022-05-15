@@ -54,7 +54,7 @@ export default {
   background: linear-gradient(var(--fill-color) 0 100%) right / 0 no-repeat; 
 }
 
-@media all and (min-width: 370px) and (max-width: 767px)
+@media all and (min-width: 320px) and (max-width: 767px)
 {
   .nav_a{
     text-transform: none;

@@ -109,7 +109,7 @@ a:hover
   }
 }
 
-@media all and (min-width: 370px) and (max-width: 606px)
+@media all and (min-width: 320px) and (max-width: 606px)
 {
   .bloc-component
   {

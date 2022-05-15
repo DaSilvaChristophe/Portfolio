@@ -294,7 +294,7 @@ h1 span {
   }
 }
 
-@media all and (min-width: 370px) and (max-width: 470px)
+@media all and (min-width: 320px) and (max-width: 470px)
 {
   .showcase,
   .showcase header

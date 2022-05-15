@@ -1,5 +1,5 @@
 <template>
-  <section id="services" class="showcase transition_page d-flex flex-column pb-4">
+  <section id="services" class="transition_page bg-light d-flex flex-column pb-4">
     <h2 class="pt-2">Services</h2>
     <div class="container-fluid">
         <div class="row d-flex justify-content-around flex-wrap">
@@ -57,16 +57,6 @@ export default {
 </script>
 
 <style scoped>
-
-.showcase
-{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #F5f5F5;
-}
 
 .back
 {
@@ -134,7 +124,7 @@ img
   }
 }
 
-@media all and (min-width: 370px) and (max-width: 499px)
+@media all and (min-width: 320px) and (max-width: 499px)
 {
   h2
   {

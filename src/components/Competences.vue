@@ -168,7 +168,7 @@ h3
   }
 }
 
-@media all and (min-width: 370px) and (max-width: 499px)
+@media all and (min-width: 320px) and (max-width: 499px)
 {
   h2
   {
