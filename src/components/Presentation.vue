@@ -1,19 +1,19 @@
 <template>
   <section id="presentation" class="showcase transition_page">
     <div class="container-fluid flex">
+      <h1 class="py-2 fw-bold text-decoration-underline">Creativity Vision</h1>
       <div class="anim_reflection">
-        <div class="mt-4">
+        <div class="mt-2">
           <img src="../assets/img-presentation.png" class="rounded" alt="">
         </div>
       </div>
-       <h1 class="py-2">Creativity Vision</h1>
       <div class="text">
         <h2 class="pt-4 pb-2 mx-auto">'About Me'</h2>
-        <p class="py-2 rounded mx-auto">
+        <p class="pt-2 rounded mx-auto">
           Développeur web au service d'entreprises, entrepreneurs et particuliers qui souhaite créer leur site, développer de nouveaux concepts via la création d'applications ou simplement intégrer de nouvelles fonctionnalités sur site existant, je suis a l'écoute de vos projets pour leur réalisation.
-          <br><br>
+          <br>-<br>
           Développement de business (site vitrine professionnel, e-commerce, applications de bureau) ou personnel (blog).
-          <br><br>
+          <br>-<br>
           Travaux sur langages de programmations, Base de données, CMS..
           <br>
           Audit et Optimisation SEO (Référencement web)..
@@ -72,9 +72,9 @@ h1
 
 img
 {
+  object-fit: cover;
   width: 85%;
 }
-
 
 .text h2
 {
@@ -83,7 +83,6 @@ img
   font-weight: 500;
   color: rgb(25, 29, 25);
   line-height: 1em;
-  border-top: 1px solid black;
 }
 .text p
 {
@@ -92,7 +91,6 @@ img
   color: black;
   font-weight: 400;
   max-width: 800px;
-  padding: 0 30px;
   background: white;
 }
 a
@@ -104,7 +102,6 @@ a
   margin-bottom: 30px;
   text-transform: uppercase;
   text-decoration: none;
-  margin-top: 10px;
   color: black;
   letter-spacing: 2px;
   transition: 0.2s;
@@ -181,11 +178,10 @@ a:hover
   .showcase
   {
     padding: 0 10px;
-    padding-right: 20px;
   }
   img
   {
-    width: 100%;
+    width: 90%;
     margin: auto;
   }
 }
@@ -195,7 +191,6 @@ a:hover
   .showcase
   {
     padding: 0 10px;
-    padding-right: 20px;
   }
   img
   {
@@ -204,7 +199,7 @@ a:hover
   }
   h1
   {
-    font-size: 3em;
+    font-size: 2.8em;
   }
   .text h2
   {
@@ -217,7 +212,6 @@ a:hover
   .showcase
   {
     padding: 0 10px;
-    padding-right: 20px;
   }
   img
   {
@@ -232,7 +226,7 @@ a:hover
   {
     font-size: 1.4em;
   }
-  .text P{
+  .text p{
     font-size: 0.9em;
   }
   a{
@@ -245,13 +239,12 @@ a:hover
   .showcase
   {
     padding: 0 10px;
-    padding-right: 20px;
   }
   img
   {
     object-fit: cover;
     width: 100%;
-    height: 150px;
+    height: 160px;
     margin: auto;
   }
   h1
@@ -262,7 +255,7 @@ a:hover
   {
     font-size: 1.4em;
   }
-  .text P{
+  .text p{
     font-size: 0.9em;
   }
   a{
