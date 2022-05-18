@@ -3,7 +3,7 @@
     <div class="container-fluid flex">
       <div class="anim_reflection">
         <div class="mt-4">
-          <img src="../assets/presentation.png" class="rounded" alt="">
+          <img src="../assets/img-presentation.png" class="rounded" alt="">
         </div>
       </div>
        <h1 class="py-2">Creativity Vision</h1>
