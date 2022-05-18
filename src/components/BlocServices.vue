@@ -1,13 +1,13 @@
 <template>
   <section id="services" class="transition_page bg-light d-flex flex-column pb-4">
-    <h2 class="pt-2">Services</h2>
+    <h2 class="pt-3 pb-2">Services</h2>
     <div class="container-fluid">
         <div class="row d-flex justify-content-around flex-wrap">
-            <div v-for="item of items" class="bg-light col-10 col-sm-5 col-lg-3 my-3 mr-2 me-2" style="height: 21rem">
+            <div v-for="item of items" class= "bloc-items bg-light col-10 col-sm-8 col-lg-4" style="height: 21rem">
                 <div class="d-flex flex-column justify-content-center align-items-center rounded bg-light" style="height: 20rem">
-                    <p class="card-text title rounded-pill">{{ item.title }}</p>
-                    <img v-bind:src="item.icon" alt="" class="mx-auto rounded-pill" style="height: 10rem">
-                    <p class="pt-3"> {{ item.description }} </p>
+                    <p class="bg-light shadow-sm card-text title rounded-pill">{{ item.title }}</p>
+                     <img v-bind:src="item.icon" alt="" class="shadow mx-auto mb-2 rounded-pill" style="height: 10rem">
+                    <p class="mt-2"> {{ item.description }} </p>
                 </div>
             </div>
         </div>
@@ -63,6 +63,9 @@ export default {
      background: linear-gradient(220.64deg, #C8F5FF 0%, #B4B4FF 100%);
 }
 
+.bloc-items{
+  margin: 0 5px;
+}
 h2
 {
   font-size: 3em;
@@ -74,20 +77,21 @@ img
     box-sizing: border-box;
     object-fit: cover;
     width: 100%;
-    height: 75%;
+    height: 80%;
 }
 
 .title
 {
-  width: 90%;
+  width: 80%;
   font-size: 1.1em;
   color: black;
   font-weight: bold;
   max-width: 800px;
-  padding: 0 0px;
   background: white;
 }
-
+p{
+  width: 90%;
+}
 /* Animation transition page */
 
 .transition_page {
